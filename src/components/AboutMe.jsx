@@ -1,4 +1,4 @@
-import React from "react";
+import { MapPinIcon } from "@heroicons/react/24/outline";
 
 const AboutMe = () => {
   return (
@@ -15,6 +15,10 @@ const AboutMe = () => {
         <p className="mt-4">
           Desarrollador Web Full Stack | Estudiante de Tecnicatura Universitaria
           en Programacion |
+        </p>
+        <p className="flex mt-4">
+          <MapPinIcon className="h-6 w-6 text-white" /> Rosario, Santa Fe,
+          Argentina
         </p>
       </div>
     </div>
