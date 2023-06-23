@@ -21,7 +21,7 @@ const navigation = {
     },
     {
       name: "PDF",
-      href: "#",
+      href: "https://portafolio-pearl-pi.vercel.app/cvjoseleoncaceres.docx.pdf",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 2080 2080" {...props}>
           <path d="M1251.654 0c44.499 0 88.207 18.07 119.718 49.581l329.223 329.224c31.963 31.962 49.581 74.54 49.581 119.717V1920H169V0Zm-66.183 112.941H281.94V1807.06h1355.294V564.706H1185.47V112.94Zm112.94 23.379v315.445h315.445L1298.412 136.32Z"></path>{" "}
