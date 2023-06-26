@@ -5,7 +5,7 @@ const AboutMe = () => {
     <div className="relative md:flex space-x-10 mt-40 m-10">
       <div className="flex justify-center">
         <img
-          className="h-24 w-24 bg-white rounded-md p-2"
+          className="h-24 w-24 bg-white rounded-full p-2"
           src="https://img.freepik.com/iconos-gratis/usuario_318-552176.jpg?w=2000"
           alt="imagen de jose leon caceres musso"
         />

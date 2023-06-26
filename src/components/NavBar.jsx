@@ -1,3 +1,5 @@
+import useScroll from "./hooks/useScroll";
+
 const navLinks = [
   {
     id: 1,
@@ -19,9 +21,15 @@ const navLinks = [
 ];
 
 const NavBar = () => {
+  const { scrolled } = useScroll();
+
   return (
-    <nav className="bg-transparent w-full relative">
-      <div className=" mx-auto px-4">
+    <nav className="fixed top-0 left-0 right-0 z-10">
+      <div
+        className={`"bg-transparent  mx-auto px-4 transition ease-in-out duration-300" ${
+          scrolled ? "bg-black bg-opacity-90 shadow-md" : "bg-transparent"
+        } `}
+      >
         <div className="flex items-center justify-center h-16">
           <div className="flex items-center">
             <ul className="flex space-x-8 ">
