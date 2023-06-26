@@ -7,7 +7,7 @@
   color: white;
   background-image: url("https://images8.alphacoders.com/468/468739.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
   background-position: fixed;
   background-color: black;
   position: relative;
