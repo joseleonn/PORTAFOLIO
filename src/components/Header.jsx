@@ -72,7 +72,7 @@ function Header() {
                 increíbles, aprovecha nuestras promociones exclusivas y disfruta
                 de envíos rápidos y seguros. */}
               </p>
-              <div className="  flex space-x-6  mx-6    ">
+              <div className="  absolute bottom-4 left-0 flex space-x-6  mx-6 lg:mt-10    ">
                 {navigation.social.map((item) => (
                   <a
                     key={item.name}
