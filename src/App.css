@@ -8,7 +8,7 @@
   background-image: url("https://images8.alphacoders.com/468/468739.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: fixed;
   background-attachment: fixed;
   background-color: black;
   position: relative;
